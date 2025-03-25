@@ -1,95 +1,97 @@
-# Next.js 15 + Auth.js + Vercel AI Starter 模板
+# Next.js 15 + Auth.js + Vercel AI Starter Template
 
-这是一个基于 [Next.js 15](https://nextjs.org/)、[Auth.js](https://authjs.dev/) 和 [Vercel AI SDK](https://sdk.vercel.ai/docs) 开发的全栈应用模板。该模板提供了现代化的用户认证系统和 AI 功能集成，帮助开发者快速构建支持 AI 的 Web 应用。
+[English](README.md) | [中文](README.zh-CN.md)
 
-## 技术栈特点
+A full-stack application template built with [Next.js 15](https://nextjs.org/), [Auth.js](https://authjs.dev/), and [Vercel AI SDK](https://sdk.vercel.ai/docs). This template provides a modern authentication system and AI integration to help developers quickly build AI-powered web applications.
 
-- 🚀 **Next.js 15**：采用最新的 Next.js 框架，支持 App Router 和 React Server Components
-- 🔐 **Auth.js**：集成强大的认证解决方案，支持多种登录方式
-- 🤖 **Vercel AI SDK**：轻松集成 AI 功能，支持流式响应
-- 📦 **TypeScript**：提供完整的类型支持，提高代码质量
-- 🎨 **Tailwind CSS**：现代化的 CSS 框架，快速构建优美界面
-- 💅 **shadcn/ui**：精美的 React 组件库，基于 Radix UI 和 Tailwind CSS
-- 🗃️ **Drizzle ORM**：类型安全的 ORM，搭配 Neon Postgres 使用
-- 🚅 **Edge Runtime**：支持在边缘运行，提供更快的响应速度
+## Tech Stack
 
-## 快速开始
+- 🚀 **Next.js 15**: Latest Next.js framework with App Router and React Server Components
+- 🔐 **Auth.js**: Powerful authentication solution with multiple login options
+- 🤖 **Vercel AI SDK**: Easy AI integration with streaming support
+- 📦 **TypeScript**: Complete type support for better code quality
+- 🎨 **Tailwind CSS**: Modern CSS framework for beautiful interfaces
+- 💅 **shadcn/ui**: Beautiful React components based on Radix UI and Tailwind CSS
+- 🗃️ **Drizzle ORM**: Type-safe ORM with Neon Postgres
+- 🚅 **Edge Runtime**: Edge runtime support for faster response times
 
-1. 克隆项目：
+## Quick Start
+
+1. Clone the project:
 
 ```bash
-git clone https://github.com/yourusername/next15-auth-ai-starter.git
+git clone https://github.com/QEout/next15-auth-ai-starter.git
 cd next15-auth-ai-starter
 ```
 
-2. 安装依赖：
+2. Install dependencies:
 
 ```bash
 pnpm install
 ```
 
-3. 配置环境变量：
+3. Configure environment variables:
 
-复制 `.env.example` 文件为 `.env.local` 并填写必要的环境变量：
+Copy `.env.example` to `.env.local` and fill in the required variables:
 
 ```bash
 cp .env.example .env.local
 ```
 
-4. 启动开发服务器：
+4. Start the development server:
 
 ```bash
 pnpm dev
 ```
 
-访问 [http://localhost:3000](http://localhost:3000) 查看应用。
+Visit [http://localhost:3000](http://localhost:3000) to view the application.
 
-## 主要功能
+## Key Features
 
-- 📝 用户认证（Email、GitHub、Google 等）
-- 🤖 AI 对话接口集成
-- 💾 数据库集成与管理
-- 🔒 安全的 API 路由
-- 🎯 类型安全的数据操作
-- 🎨 美观的 UI 组件（基于 shadcn/ui）：
-  - 响应式导航栏
-  - 深色模式支持
-  - 可访问性优化的表单控件
-  - 现代化的对话框和弹出提示
-  - 动画过渡效果
+- 📝 User Authentication (Email, GitHub, Google, etc.)
+- 🤖 AI Chat Interface Integration
+- 💾 Database Integration and Management
+- 🔒 Secure API Routes
+- 🎯 Type-safe Data Operations
+- 🎨 Beautiful UI Components (based on shadcn/ui):
+  - Responsive Navigation Bar
+  - Dark Mode Support
+  - Accessible Form Controls
+  - Modern Dialogs and Toasts
+  - Animated Transitions
 
-## 部署
+## Deployment
 
-本项目可以一键部署到 Vercel：
+This project can be deployed to Vercel with one click:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fyourusername%2Fnext15-auth-ai-starter)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FQEout%2Fnext15-auth-ai-starter)
 
-## 环境变量配置
+## Environment Variables
 
-项目需要配置以下环境变量：
+The project requires the following environment variables:
 
 ```env
-# Auth.js 配置
+# Auth.js Configuration
 AUTH_SECRET=your-auth-secret
 AUTH_GITHUB_ID=your-github-id
 AUTH_GITHUB_SECRET=your-github-secret
 
-# 数据库配置
+# Database Configuration
 DATABASE_URL=your-database-url
 
-# AI API 配置
+# AI API Configuration
 OPENAI_API_KEY=your-openai-api-key
 ```
 
-## 贡献指南
+## Contributing
 
-欢迎提交 Pull Request 和 Issue！在提交之前，请确保：
+Pull requests and issues are welcome! Before submitting, please ensure:
 
-1. 代码经过格式化
-2. 所有测试通过
-3. 提交信息清晰明了
+1. Code is formatted
+2. All tests pass
+3. Commit messages are clear and descriptive
 
-## 许可证
+## License
 
-MIT License - 详见 [LICENSE](LICENSE) 文件
+MIT License - see [LICENSE](LICENSE) file for details
 

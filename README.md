@@ -1,97 +1,36 @@
-# Next.js 15 + Auth.js + Vercel AI Starter Template
+# Next.js + PostgreSQL Auth Starter
 
-[English](README.md) | [中文](README.zh-CN.md)
+This is a [Next.js](https://nextjs.org/) starter kit that uses [NextAuth.js](https://next-auth.js.org/) for simple email + password login, [Drizzle](https://orm.drizzle.team) as the ORM, and a [Neon Postgres](https://vercel.com/postgres) database to persist the data.
 
-A full-stack application template built with [Next.js 15](https://nextjs.org/), [Auth.js](https://authjs.dev/), and [Vercel AI SDK](https://sdk.vercel.ai/docs). This template provides a modern authentication system and AI integration to help developers quickly build AI-powered web applications.
+## Deploy Your Own
 
-## Tech Stack
+You can clone & deploy it to Vercel with one click:
 
-- 🚀 **Next.js 15**: Latest Next.js framework with App Router and React Server Components
-- 🔐 **Auth.js**: Powerful authentication solution with multiple login options
-- 🤖 **Vercel AI SDK**: Easy AI integration with streaming support
-- 📦 **TypeScript**: Complete type support for better code quality
-- 🎨 **Tailwind CSS**: Modern CSS framework for beautiful interfaces
-- 💅 **shadcn/ui**: Beautiful React components based on Radix UI and Tailwind CSS
-- 🗃️ **Drizzle ORM**: Type-safe ORM with Neon Postgres
-- 🚅 **Edge Runtime**: Edge runtime support for faster response times
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?demo-title=Next.js%20Prisma%20PostgreSQL%20Auth%20Starter&demo-description=Simple%20Next.js%2013%20starter%20kit%20that%20uses%20Next-Auth%20for%20auth%20and%20Prisma%20PostgreSQL%20as%20a%20database.&demo-url=https%3A%2F%2Fnextjs-postgres-auth.vercel.app%2F&demo-image=%2F%2Fimages.ctfassets.net%2Fe5382hct74si%2F7rsVQ1ZBSiWe9JGO6FUeZZ%2F210cba91036ca912b2770e0bd5d6cc5d%2Fthumbnail.png&project-name=Next.js%%20Prisma%20PostgreSQL%20Auth%20Starter&repository-name=nextjs-postgres-auth-starter&repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fnextjs-postgres-auth-starter&from=templates&skippable-integrations=1&env=AUTH_SECRET&envDescription=Generate%20a%20random%20secret%3A&envLink=https://generate-secret.vercel.app/&stores=%5B%7B"type"%3A"postgres"%7D%5D)
 
-## Quick Start
+## Developing Locally
 
-1. Clone the project:
+You can clone & create this repo with the following command
 
 ```bash
-git clone https://github.com/QEout/next15-auth-ai-starter.git
-cd next15-auth-ai-starter
+npx create-next-app nextjs-typescript-starter --example "https://github.com/vercel/nextjs-postgres-auth-starter"
 ```
 
-2. Install dependencies:
+## Getting Started
 
-```bash
-pnpm install
-```
-
-3. Configure environment variables:
-
-Copy `.env.example` to `.env.local` and fill in the required variables:
-
-```bash
-cp .env.example .env.local
-```
-
-4. Start the development server:
+First, run the development server:
 
 ```bash
 pnpm dev
 ```
 
-Visit [http://localhost:3000](http://localhost:3000) to view the application.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Key Features
+## Learn More
 
-- 📝 User Authentication (Email, GitHub, Google, etc.)
-- 🤖 AI Chat Interface Integration
-- 💾 Database Integration and Management
-- 🔒 Secure API Routes
-- 🎯 Type-safe Data Operations
-- 🎨 Beautiful UI Components (based on shadcn/ui):
-  - Responsive Navigation Bar
-  - Dark Mode Support
-  - Accessible Form Controls
-  - Modern Dialogs and Toasts
-  - Animated Transitions
+To learn more about Next.js, take a look at the following resources:
 
-## Deployment
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-This project can be deployed to Vercel with one click:
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FQEout%2Fnext15-auth-ai-starter)
-
-## Environment Variables
-
-The project requires the following environment variables:
-
-```env
-# Auth.js Configuration
-AUTH_SECRET=your-auth-secret
-AUTH_GITHUB_ID=your-github-id
-AUTH_GITHUB_SECRET=your-github-secret
-
-# Database Configuration
-DATABASE_URL=your-database-url
-
-# AI API Configuration
-OPENAI_API_KEY=your-openai-api-key
-```
-
-## Contributing
-
-Pull requests and issues are welcome! Before submitting, please ensure:
-
-1. Code is formatted
-2. All tests pass
-3. Commit messages are clear and descriptive
-
-## License
-
-MIT License - see [LICENSE](LICENSE) file for details
-
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!

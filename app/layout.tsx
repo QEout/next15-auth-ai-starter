@@ -1,9 +1,10 @@
 import './globals.css';
-import { GeistSans } from 'geist/font/sans';
-import { Toaster } from 'sonner';
 
-let title = 'Social.Sandbox AI版本小红书';
-let description = '一个创新的社交平台，用户可以与AI角色互动。';
+import { GeistSans } from 'geist/font/sans';
+
+let title = 'Next.js + Postgres Auth Starter';
+let description =
+  'This is a Next.js starter kit that uses NextAuth.js for simple email + password login and a Postgres database to persist the data.';
 
 export const metadata = {
   title,
@@ -22,11 +23,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="zh">
-      <body className={GeistSans.className}>
-        {children}
-        <Toaster richColors position="top-center" />
-      </body>
+    <html lang="en">
+      <body className={GeistSans.variable}>{children}</body>
     </html>
   );
 }
